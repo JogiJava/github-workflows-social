@@ -1,0 +1,10 @@
+name: Hello World Post
+
+on:
+  workflow_dispatch:  # Run manually
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World! I'm learning automation! 🎉"
